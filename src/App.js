@@ -1,25 +1,13 @@
 import React from 'react';
-
 import './App.css';
-import logo1 from "./Images/cabezarobot.png"
+import RegistrarUsuario from "./components/Registro/RegistrarUsuario"
+import "./components/FontAwesomeIcons/FontAwesomeIcons"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo1} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RegistrarUsuario/>
     </div>
   );
 }
