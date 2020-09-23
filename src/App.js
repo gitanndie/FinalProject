@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 import "./components/FontAwesomeIcons/FontAwesomeIcons"
 /*import Home from "./components/Home/Home"*/
-import RegistrarUsuario from "./components/Registro/RegistrarUsuario"
+import RegisterUser from "./components/Register/RegisterUser"
 
 
 function App() {
   return (
     <div className="App">
-      <RegistrarUsuario/>
+      <RegisterUser/>
       {/*<Home/>*/}
     </div>
   );

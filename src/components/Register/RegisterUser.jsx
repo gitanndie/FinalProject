@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react'
-import "./RegistrarUsuario.css";
+import "./RegisterUser.css";
 import 'bulma/css/bulma.css';
 import Eddy from '../../Images/Eddy-radius.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 
 
-export default class Registrar extends Component {
+export default class Register extends Component {
     render() {
         return (
             
