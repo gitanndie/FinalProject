@@ -44,6 +44,10 @@ nav ul li a{
     text-decoration: none;
 }
 
+ul li a:hover{
+    color: rgb(1, 207, 207);
+}
+
 #icon-bars,
 #icon-times{
     font-size: 30px;

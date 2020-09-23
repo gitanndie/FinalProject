@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+#eddy{
+    /*-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+background-color: rgba(255, 255, 255, 0);*/
+}
+
 .navSearch{
     background-color: #030c2a00;
 }
