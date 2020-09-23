@@ -11,7 +11,7 @@ export default class Registrar extends Component {
     render() {
         return (
             
-                <section className="register">
+                <div className="column" id="register">
                     <img className="head" src={Eddy} alt="robot" />
                     <div className="Registrar">
                            <h1 id="title-registrar">Registrar Usuario</h1>
@@ -59,7 +59,7 @@ export default class Registrar extends Component {
                         <div className="option">
                         <p>Ya tienes cuenta?</p><a id="link" href=""> Ingresa aquí</a>
                     </div>
-                </section>
+                </div>
 
       
         )

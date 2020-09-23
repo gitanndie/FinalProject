@@ -5,12 +5,13 @@ body{
    
 }
 
-.register{
-    width: 100vh;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 26);
-    height: 96vh;
+#register{
+    margin-right: 40vh; 
+    margin-left: 40vh;
     margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: rgb(0, 0, 26);
+   
 }
 
 .head{
@@ -51,7 +52,7 @@ body{
 }
 
 #boton{
-    margin-top: 4vh;
+    margin-top: 5.5vh;
     width: 20vh;
     background-color:rgb(0, 221, 221);
 }
@@ -60,6 +61,14 @@ body{
     -webkit-box-shadow: 0px 0px 16px 6px cyan;
     -moz-box-shadow: 0px 0px 16px 6px cyan;
     box-shadow: 0px 0px 16px 6px cyan;
+}
+
+@media  (max-width: 1080px){
+    #register{
+       margin-left: 40px;
+       margin-right: 40px;
+       
+    }
 }
 
 
