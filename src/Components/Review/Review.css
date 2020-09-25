@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Architects Daughter', cursive;
+}
+
+p {
+    font-family: 'Architects Daughter', cursive; 
+}
+
+#cabezarobot {
+    width: 100px;
+    border-radius: 20%;
+}
+
+.control{
+    margin: 20px;
+    font-family: 'Architects Daughter', cursive; 
+}

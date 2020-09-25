@@ -1,0 +1,10 @@
+color accent primary #030C2A
+color accent second #4CAAB2
+
+FontFamily: 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+Fonts:
+font-family: 'Baloo Tammudu 2';
+font-family: 'Architects Daughter', cursive;
