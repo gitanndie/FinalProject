@@ -2,7 +2,12 @@ import React, { Component } from 'react'
 import cabezarobot from '../../Images/cabezarobot.png'
 import './Home.css'
 import 'bulma/css/bulma.css';
-export default class HomeNav extends Component {
+import { withRouter } from "react-router-dom"
+class HomeNav extends Component {
+    close = () => {
+        localStorage.removeItem("auth");
+        this.props.history.replace("/")
+    }
     render() {
         return (
         <>
@@ -16,9 +21,21 @@ export default class HomeNav extends Component {
                         <li><a href="/">Docentes</a></li>
                         <li><a href="/">Aula Virtual</a></li>
                     </ul>
-                </div>    
+                </div> 
+                <div className="navbar-end">
+                    <div className="navbar-item">
+                        <div className="buttons">
+                        <a className="button is-primary">
+                            <strong>En Sesión</strong>
+                        </a>
+                        <a className="button is-light" onClick={this.close}>Cerrar Sesión
+                            </a>
+                        </div>
+                    </div>
+                </div>   
             </nav>
         </>
         )
     }
 }
+export default withRouter(HomeNav);
