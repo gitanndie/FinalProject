@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import HomeNav from '../../components/Home/HomeNav'
-import HomeNavSearch from './HomeNavSearch'
+import HomeNav from './HomeNav'
 import HomeBody from "./HomeBody"
 import HomeFooter from './HomeFooter'
-
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <HomeNavSearch/>
                 <HomeNav/>
                 <HomeBody/>
                 <HomeFooter/>

@@ -1,20 +1,15 @@
-
 import React, { Component } from 'react'
 import "./RegisterUser.css";
 import 'bulma/css/bulma.css';
-import Eddy from '../../Images/Eddy-radius.png';
+import cabezarobot from '../../Images/cabezarobot.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
-
-
 export default class Register extends Component {
     render() {
         return (
-            
-                <div className="column" id="register">
-                    <img className="head" src={Eddy} alt="robot" />
+            <div className="column" id="register">
+                <img className="head" src={cabezarobot} alt="robot" />
                     <div className="Registrar">
-                           <h1 id="title-registrar">Registrar Usuario</h1>
+                        <h1 id="title-registrar">Registrar Usuario</h1>
                     </div>
                         <div className="titles">
                             <p id="correo"> Correo </p>
@@ -28,28 +23,21 @@ export default class Register extends Component {
                                 <i><FontAwesomeIcon id="icon-check" icon="check"/></i>
                             </span>
                             <input className="input is-medium" id="input1" type="email" placeholder="Ingrese correo electronico" required />
-                            
-                           
-                            
                         </div>
-                        </div> 
-                    
+                    </div> 
                         <div className="titles">    
                             <p className="contraseña"> Contraseña </p>
                         </div>    
-                        
                         <div className="field">
-                        <p className="control has-icons-left">
+                            <p className="control has-icons-left">
                         <span className="icon">
                                 <i><FontAwesomeIcon id="icon-lock" icon="lock"/></i>
                             </span>
                             <input className="input is-medium" id="input2" type="password" placeholder="Ingrese contraseña" required/>
-                           
-                        </p>
+                            </p>
                         </div> 
                         <div className="control1">
                             <label className="radio"><input type="radio" name="answer" />Docente</label>
-                        
                             <label className="radio"><input type="radio" name="answer" />Estudiante</label>
                         </div>
                         <div className="control">
@@ -60,8 +48,6 @@ export default class Register extends Component {
                         <p>Ya tienes cuenta?</p><a id="link" href=""> Ingresa aquí</a>
                     </div>
                 </div>
-
-      
         )
     }
 }

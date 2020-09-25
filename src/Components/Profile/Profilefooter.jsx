@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-
 export default class Profilefooter extends Component {
     render() {
         return (
             <div>
-                <footer class="footer">
-                    <div class="content has-text-centered">
+                <footer className="footer">
+                    <div className="content has-text-centered">
                         <span id="icons">
                             <a href="/" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="/" target="_blank"><i className="fab fa-twitter"></i></a>

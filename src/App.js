@@ -12,6 +12,8 @@ import {
 } from "react-router-dom";
 import Award from './Components/Award/Award';
 import Review from './Components/Review/Review';
+import RegisterUser from './Components/Register/RegisterUser';
+import Home from './Components/Home/Home';
 import { createBrowserHistory } from "history";
 
 const history = createBrowserHistory();
@@ -25,14 +27,20 @@ function App() {
             <Login/>
             </Route>
               <Route path="/Profile">
-              <Profile/>
-              </Route>
-                <Route path="/Award">
-                <Award/>
+                <Profile/>
                 </Route>
-                <Route path="/Review">
-                <Review/>
-                </Route>
+                <Route path="/Register">
+                  <RegisterUser/>
+                  </Route>
+                  <Route path="/Award">
+                    <Award/>
+                    </Route>
+                    <Route path="/Review">
+                      <Review/>
+                      </Route>
+                      <Route path="/Home">
+                        <Home/>
+                        </Route>
         </Switch>
       </Router>
     </div>
