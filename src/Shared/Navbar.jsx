@@ -37,13 +37,11 @@ class Navbar extends Component {
                         Grado 
                     </a>
                     </div>
-                <div className="navbar-end">
+                    <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-                        <a id="active"><i className="fas fa-signal"></i></a>
-                        <br/>
-                        <a className="button is-light" onClick={this.close}>Cerrar Sesión
-                            </a>
+                        <button className="button is-primary">Activo</button>
+                        <button className="button is-light" onClick={this.close}>Cerrar Sesión</button>
                         </div>
                     </div>
                 </div>

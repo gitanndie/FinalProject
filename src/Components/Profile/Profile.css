@@ -14,8 +14,9 @@
     margin-left: 50px;
 }
 
-#user{
+#user {
     margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 #grado {
@@ -46,9 +47,17 @@
     padding: 10px;
 }
 
-#button button{
-    margin: 50px;
+/* .buttons {
+    margin-bottom: 10px;
 }
+
+#strong {
+    margin: 15px;
+}
+
+.buttons a {
+    margin: 10px;
+} */
 
 .footer {
     background-color: #030C2A;
@@ -61,7 +70,7 @@
 
 #icons a{
     margin: 60px;
-    font-size: 20px;
+    font-size: 50px;
     margin-bottom: 20px;
     color: white;
 }

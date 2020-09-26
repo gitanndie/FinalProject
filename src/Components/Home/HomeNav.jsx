@@ -25,11 +25,8 @@ class HomeNav extends Component {
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-                        <a className="button is-primary">
-                            <strong>En Sesión</strong>
-                        </a>
-                        <a className="button is-light" onClick={this.close}>Cerrar Sesión
-                            </a>
+                        <button className="button is-primary">Activo</button>
+                        <button className="button is-light" onClick={this.close}>Cerrar Sesión</button>
                         </div>
                     </div>
                 </div>   

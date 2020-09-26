@@ -62,11 +62,10 @@ export default class Awardbody extends Component {
         return (
             <div>
                 <h1 id="h1">Elige tu premio</h1>
-                <div className="panel-heading columns">
-                <div className="column" id="column"> 
+                <div className="panel-heading">
                 <div className="card-content">
                     <div className="media" id="prod">
-                    <div className="media-left">
+                    <div className="media">
                         {this.state.gifts.map((gift, index) => {
                 return <Gifts key={index} puntos={gift.puntos} imagen={gift.imagen} />
                 })} 
@@ -74,19 +73,9 @@ export default class Awardbody extends Component {
                     </div>
                 </div>
                 </div>
-                </div> 
-                    <nav className="pagination" role="navigation" aria-label="pagination">
-                        <ul className="pagination-list">
-                            <li>
-                            <a className="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
-                            </li>
-                            <li>
-                            <a className="pagination-link" aria-label="Goto page 2">2</a>
-                            </li>
-                            <li>
-                            <a className="pagination-link" aria-label="Goto page 3">3</a>
-                            </li>
-                        </ul>
+                <nav className="pagination is-rounded" role="navigation" aria-label="pagination">
+                    <a className="pagination-previous">Previous</a>
+                    <a className="pagination-next">Next page</a>
                 </nav>
             </div>
             

@@ -7,7 +7,6 @@ h1 {
     margin-top: 10px;
 }
 
-
 #user1 {
     margin-left: 50px;
 }
@@ -40,12 +39,14 @@ h1 {
     margin: 20px;
 }
 
-.pagination-list{
+.pagination {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 
 #column {
     display: block;

@@ -56,7 +56,6 @@
 
 #icons a{
     margin: 60px;
-    font-size: 20px;
     margin-bottom: 20px;
     color: white;
 }
@@ -73,12 +72,11 @@ nav ul li{
 
 nav ul li a{
     color: white;
-    font-size: 25px;
-    text-decoration: none;
+    margin-left: 150px;
 }
 
 ul li a:hover{
-    color: aquamarine;
+    color: #4CAAB2;
 }
 
 .columns{
@@ -99,7 +97,7 @@ ul li a:hover{
 }
 
 #container2{
-    background-color: rgb(163, 66, 66);
+    background-color: rgb(155, 139, 139);
     color: rgb(0, 0, 0);
     margin-right: 1vh;
 }

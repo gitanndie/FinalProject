@@ -34,27 +34,19 @@ class Awardnav extends Component {
                     <i className="fas fa-user" id="user"></i>
                         { this.state.user && this.state.user }
                     </a>
-                    <a className="navbar-item" id="grado">
-                        Grado 
-                    </a>
+                    <a className="navbar-item" id="grado">Grado</a>
                     </div>
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-                        <a className="button is-primary">
-                            <strong>Puntos: 1500</strong>
-                        </a>
-                        </div>
+                        <button className="button is-primary">Puntos:1500</button>
+                        <button className="button is-light" onClick={this.close}>Cerrar Sesión</button> 
                     </div>
                 </div>
-                    <div className="buttons">
-                        <a className="button is-light" onClick={this.close}>
-                            Cerrar Sesión
-                        </a> 
-                    </div>
+            </div>
             </div>
         </nav>
-            </div>
+    </div>
         )
     }
 }
