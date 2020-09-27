@@ -4,11 +4,11 @@ import '../../components/Home/Styles/HomeFooter.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebook,faTwitter,faGoogle} from "@fortawesome/free-brands-svg-icons";
 
-
 export default class HomeFooter extends Component {
     render() {
         return (
             <footer className="footer">
+    {/*Footer pagina principal*/}            
                <div className="container" id="icons-container">
                <span class="icon">
                     <a href="/"><FontAwesomeIcon id="icon-facebook" icon={faFacebook} /></a>
@@ -16,8 +16,7 @@ export default class HomeFooter extends Component {
                     <a href="/"><FontAwesomeIcon id="icon-google"icon={faGoogle} /></a>
                </span>
                </div>
-
-               <div className="content has-text-centered" id="text-container">
+            <div className="content has-text-centered" id="text-container">
                     <p>EDDY-Todos los derechos son reservados</p>
                     <p>2020 | Medellin-Antioquia</p>
                </div> 

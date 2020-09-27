@@ -39,6 +39,76 @@
       "id": 8,
       "user": "Carlos",
       "password": "123456"
+    },
+    {
+      "useremail": "andrea@gmail.com",
+      "userpassword": "123456",
+      "id": 10
+    },
+    {
+      "useremail": "quirama@gmail.com",
+      "userpassword": "32165",
+      "id": 11
+    },
+    {
+      "useremail": "carlos@hotmail.com",
+      "userpassword": "789456",
+      "userperfil": true,
+      "id": 13
+    },
+    {
+      "useremail": "juan@gmail.com",
+      "userpassword": "7894648",
+      "userperfil": true,
+      "id": 14
+    },
+    {
+      "useremail": "andrea@gmail.com",
+      "userpassword": "123454121354",
+      "userperfil": true,
+      "id": 17
+    },
+    {
+      "useremail": "luis@gmail.com",
+      "userpassword": "457894",
+      "userperfil": true,
+      "id": 18
+    },
+    {
+      "useremail": [],
+      "userpassword": [],
+      "userperfil": "",
+      "id": 19
+    },
+    {
+      "useremail": "Juan@gmail.com",
+      "userpassword": "123456",
+      "userperfil": true,
+      "id": 20
+    },
+    {
+      "useremail": "quirama@gmail.com",
+      "userpassword": "13467",
+      "userperfil": true,
+      "id": 21
+    },
+    {
+      "useremail": "andrea@gmail.com",
+      "userpassword": "3254567867",
+      "userperfil": true,
+      "id": 22
+    },
+    {
+      "useremail": "quirama@gmail.com",
+      "userpassword": "53465714",
+      "userperfil": true,
+      "id": 23
+    },
+    {
+      "useremail": "andrea@gmail.com",
+      "userpassword": "kytfytrvytrfuyrfv",
+      "userperfil": true,
+      "id": 24
     }
   ]
 }

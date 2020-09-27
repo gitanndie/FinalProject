@@ -1,19 +1,17 @@
+/*Estilos barra de filtrado*/
 *{
     margin: 0;
     padding: 0;
 }
-
 #eddy{
     /*-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
 background-color: rgba(255, 255, 255, 0);*/
 }
-
 .navSearch{
     background-color: #030c2a00;
 }
-
 .control {
     height: 60px;
     width: 98%;
@@ -22,13 +20,10 @@ background-color: rgba(255, 255, 255, 0);*/
     border-radius: 20px;
     padding: 1vh;
     margin: 1vh;
-    
 }
-
 #input-search{
     width: 50vh;
 }
-
 h1{
     float: left;
     color: black;
@@ -37,8 +32,6 @@ h1{
     top: 8px;
     left:5%;
 }
-
-
 #bell-icon,
 #user-icon{
     float: right;
@@ -47,20 +40,17 @@ h1{
     font-size: 25px;
     color: black;
 }
-
 #search-icon{
     margin-top: 1.3vh;
     font-size: 20px;
     color: black;
 }
-
-
+/*controlador de medidas diseño responsivo*/
 @media(max-width:312px){
     #bell-icon{
         display: none;
     }
 }
-
 @media (max-width: 340px){
     #input-search{
         width: 5vh;
@@ -71,13 +61,11 @@ h1{
         display: none;
     }
 }
-
 @media (max-width: 490px){
     #search-icon{
         color: rgba(255, 245, 238, 0);
     }
 }
-
 @media (max-width: 870px){
     h1{
         margin-left: 10px;
@@ -91,9 +79,7 @@ h1{
         float: left;
         margin-left: 1vh;
     }
-    
 }
-
 @media (max-width: 1024px){
     h1{
         margin-left: 10px;
