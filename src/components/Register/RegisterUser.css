@@ -2,18 +2,16 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 0;
-   
 }
-
+/*contenedor principal y control de margenes*/
 #register{
     margin-right: 40vh; 
     margin-left: 40vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     background-color: rgb(0, 0, 26);
-   
 }
-
+/*tamaños para la cabeza robot*/
 .head{
     width: 350px;
     height: 200px;
@@ -36,7 +34,7 @@ body{
     text-align: center;
     justify-content: center;
 }
-
+/*control induvidual para las entradas*/
 #input1{
     margin-top: -0.5vh;
     width: 40vh;
@@ -51,23 +49,20 @@ body{
     margin-top: 3vh;
 }
 
+.radio {
+    margin-left: 0.5em;
+}
+
 #boton{
     margin-top: 5.5vh;
     width: 20vh;
     background-color:rgb(0, 221, 221);
 }
-
-#boton:hover{
-    -webkit-box-shadow: 0px 0px 16px 6px cyan;
-    -moz-box-shadow: 0px 0px 16px 6px cyan;
-    box-shadow: 0px 0px 16px 6px cyan;
-}
-
+/*implementacion de diseño responsivo usando media quiery*/
 @media  (max-width: 1080px){
     #register{
        margin-left: 40px;
        margin-right: 40px;
-       
     }
 }
 

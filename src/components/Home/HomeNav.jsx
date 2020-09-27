@@ -9,6 +9,7 @@ export default class HomeNav extends Component {
     render() {
         return (
         <>
+    {/*Barra de navegacion*/}    
             <nav className="navbar" id="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <input type="checkbox" id="res-menu"/>
@@ -17,19 +18,14 @@ export default class HomeNav extends Component {
                         <i> <FontAwesomeIcon id="icon-times" icon="times"/></i>
                     </label>
                     <img id="head-robot" alt="img" src={robothead} ></img>
-                  
                     <ul>
                         <li> <a href="/" >Inicio</a> </li>
                         <li> <a href="/" >Docentes</a> </li>
                         <li> <a href="/" >Aula Virtual</a> </li>
-                        
                     </ul>
-                    
                 </div>    
             </nav>
-          
-        </>
+          </>
         )
-    
     }
 }
