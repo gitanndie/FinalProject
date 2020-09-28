@@ -49,12 +49,15 @@ export default class Register extends Component {
         console.log(res)
         e.target.reset()
     /*Alerta usando la dependencia sweetalert*/
+    if (res.data === this.useremail){
         swal({
-            title: "Bienvenid@ a EDDY",
-            text: "El usuario ha sido creado exitosamente",
+            title: `Bienvenid@ a EDDY: ${this.state.useremail}`,
+            text: `Usuario creado exitosamente`,
             icon: "success"
         });
+      }
     }
+    
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
     render() {
         return (
@@ -101,13 +104,13 @@ export default class Register extends Component {
                         <label className="radio"><input type="radio" name="answer" required onChange={this.onChangeUserperfil} />Estudiante</label>
                     </div>
                     <div className="control">
-                        <button onClick={swal} type="submit" id="boton" className="button is-primary">Enviar</button>
+                        <button type="submit" id="boton" className="button is-primary">Enviar</button>
                     </div>
                 </form>
     {/*Footer formulario*/}            
                 <br />
                 <div className="option">
-                    <p>Ya tienes cuenta?</p><a id="link" href=""> Ingresa aquí</a>
+                    <p>Ya tienes cuenta?</p><a id="link" href="/"> Ingresa aquí</a>
                 </div>
             </div>
         )
