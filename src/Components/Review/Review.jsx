@@ -43,7 +43,6 @@ export default class Review extends Component {
                   </label>
                 </div>
               </div>
-
               <p>
                 2. ¿Cuál es la forma más eficiente de aplicar estilos CSS en un
                 documento HTML?
@@ -100,23 +99,23 @@ export default class Review extends Component {
                 bordes?
               </p>
               <div className="control">
-                <label className="radio">
-                  <input type="radio" name="foobar" />
+              <label class="radio">
+                    <input type="radio" name="question6" />
                   Border-color
                 </label>
                 <br />
-                <label className="radio">
-                  <input type="radio" name="foobar" />
+                <label class="radio">
+                    <input type="radio" name="question6" />
                   Color-border
                 </label>
                 <br />
-                <label for="radio" className="radio">
-                  <input type="radio" name="foobar" />
+                <label class="radio">
+                    <input type="radio" name="question6" />
                   Border-bgcolor
                 </label>
                 <br />
-                <label for="border" className="radio">
-                  <input type="radio" name="foobar" value="border" />
+                <label class="radio">
+                    <input type="radio" name="question6" />
                   Border-style
                 </label>
                 <br />
