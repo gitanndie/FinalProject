@@ -1,18 +1,77 @@
 import React, { Component } from "react";
 import "./RegisterUser.css";
 import "bulma/css/bulma.css";
+import axios from "axios"
+import swal from "sweetalert"
 import robot3 from "../../Images/robot3.png";
 import cabezarobot from "../../Images/cabezarobot.png";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {fab,faTwitter,faFacebook} from '@fortawesome/free-brands-svg-icons'
 import { fas,faLock, faUser,faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { withRouter } from "react-router-dom";
 library.add(fas, faLock,faUser)
 library.add(fab, faLock,faUser,faEnvelope)
-export default class Register extends Component {
+
+class Register extends Component {
+   /*Definicion de datos para el estado*/
+   state = {
+    users: [],
+    existsUser: null,
+    newUser: {
+      useremail:'',
+      userpassword: '',
+      userperfil: ''
+    },
+    userCreate: []
+}
+/*Obteniendo datos de la API por el metodo get*/
+async componentDidMount() {
+    const res = await axios.get("https://json-server-now.kira4489.vercel.app/users");
+    this.setState({ users: res.data })
+    // console.log(this.state.users)
+}
+/*Array function, eventos y actualizacion del estado*/
+handleChange = (e) => {
+  this.setState({
+    newUser: {
+      ...this.state.newUser, 
+      [e.target.name]: e.target.value
+    }
+  })
+}
+/*Peticion por metodo post para agregar usuarios usando axios*/
+onSubmit = async e => {
+  e.preventDefault();
+  this.state.users.map(user => {
+    if(user.useremail === this.state.newUser.useremail) {
+      this.setState({ existsUser: true });
+    }
+  })
+
+  if(this.state.existsUser) return;
+
+  const {useremail, userpassword, userperfil} = this.state.newUser;
+    const res = await axios.post("https://json-server-now.kira4489.vercel.app/users", {
+        useremail: useremail,
+        userpassword: userpassword,
+        userperfil: userperfil
+    })
+    this.setState({userCreate: res.data});
+/*Alerta usando la dependencia sweetalert*/
+    localStorage.setItem("auth", true);
+    localStorage.setItem("user", this.state.userCreate.useremail && this.state.userCreate.useremail)
+  // this.props.history.replace("/Profile");
+    swal({
+        title: `Bienvenid@ a EDDY: ${this.state.userCreate.useremail}`,
+        text: `Usuario creado exitosamente`,
+        icon: "success"
+    });
+}
   render() {
     return (
       <div className="columns is-centered" id="register">
+        {this.state.existsUser && <p>Ya existe un usuario registrado</p>}
         <section className="column" id="column2">
           <img className="robot" src={robot3} alt="robot" />
           <h1 id="h1">E D D Y - A P P</h1>
@@ -34,8 +93,8 @@ export default class Register extends Component {
         </section>
         <div className="column" id="column1">
           <img className="head" src={cabezarobot} alt="robot" />
-          <form onSubmit={this.handleOnSubmit}>
-            ​{" "}
+          <form onSubmit={this.onSubmit}>
+            {" "}
             <div className="Registrar">
               <h1 id="title-registrar">Registrar Usuario</h1>
             </div>
@@ -46,8 +105,8 @@ export default class Register extends Component {
             <div className="field control has-icons-left">
               <input
                 className="input is-info"
-                name="name"
-                onChange={this.handleOnchange}
+                name="useremail"
+                onChange={this.handleChange} 
                 placeholder="Ingresa un correo electronico"
                 id="email"
                 required
@@ -56,12 +115,12 @@ export default class Register extends Component {
               <FontAwesomeIcon icon={faUser}/>
               </span>
             </div>
-            ​ <label className="label">Contraseña</label>
+             <label className="label">Contraseña</label>
             <div className="field control has-icons-left">
               <input
                 className="input is-info"
-                onChange={this.handleOnchange}
-                name="password"
+                onChange={this.handleChange} 
+                name="userpassword"
                 type="password"
                 placeholder="Ingresa una contraseña"
                 id="password"
@@ -73,11 +132,11 @@ export default class Register extends Component {
             </div>
             <div className="control1">
               <label className="radio">
-                <input type="radio" name="answer" />
+                <input type="radio" name="userperfil" value="docente" required onChange={this.handleChange} />
                 Docente
               </label>
               <label className="radio">
-                <input type="radio" name="answer" />
+                <input type="radio" name="userperfil" value="estudiante" required onChange={this.handleChange} />
                 Estudiante
               </label>
             </div>
@@ -100,3 +159,4 @@ export default class Register extends Component {
     );
   }
 }
+export default withRouter(Register)

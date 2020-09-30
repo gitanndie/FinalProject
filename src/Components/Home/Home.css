@@ -45,6 +45,11 @@
     margin: 50px;
 }
 
+#imagen{
+    height: auto;
+    width: 20%;
+}
+
 .footer {
     background-color: #030C2A;
     color: white;
@@ -105,6 +110,7 @@ ul li a:hover{
 }
 
 #title5{
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
