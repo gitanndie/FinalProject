@@ -50,6 +50,12 @@
     width: 20%;
 }
 
+#imagen1{
+    height: auto;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
 .footer {
     background-color: #030C2A;
     color: white;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import logo from "../../Images/logo1.png"
+import inem from "../../Images/inem.jpg"
 import "./Home.css";
 export default class HomeBody extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class HomeBody extends Component {
           </div>
           <div className="column" id="container4">
             <h1 id="title4">Historia</h1>
+            <img id="imagen1" src={inem}/>
             <p>
               En 1969, durante la administración de Carlos Lleras Restrepo, por
               medio del Decreto 1962, se creó un grupo de colegios en todas los
