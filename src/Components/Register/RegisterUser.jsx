@@ -3,6 +3,7 @@ import "./RegisterUser.css";
 import "bulma/css/bulma.css";
 import axios from "axios"
 import swal from "sweetalert"
+import { Link } from 'react-router-dom';
 import robot3 from "../../Images/robot3.png";
 import cabezarobot from "../../Images/cabezarobot.png";
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -148,10 +149,10 @@ onSubmit = async e => {
             <br />
             <div className="option">
               <p>Ya tienes cuenta?</p>
-              <a id="link" href="">
+              <Link to="/" id="link">
                 {" "}
                 Ingresa aquí
-              </a>
+              </Link>
             </div>
           </form>
         </div>

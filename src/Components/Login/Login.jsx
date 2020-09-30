@@ -118,7 +118,7 @@ class Login extends Component {
                 <br />
                 <button
                   className="button is-primary"
-                  onClick={() => this.props.history.push("/Award")}
+                  onClick={() => this.props.history.push("/Register")}
                 >
                   Registrarse
                 </button>
