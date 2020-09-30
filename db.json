@@ -42,43 +42,27 @@
     },
     {
       "useremail": "andrea@gmail.com",
-      "userpassword": "123456",
-      "id": 10
+      "userpassword": "12345",
+      "userperfil": "Estudiante",
+      "id": 9
     },
     {
       "useremail": "quirama@gmail.com",
-      "userpassword": "32165",
-      "id": 11
-    },
-    {
-      "useremail": "carlos@hotmail.com",
-      "userpassword": "789456",
-      "userperfil": true,
-      "id": 13
-    },
-    {
-      "useremail": "juan@gmail.com",
-      "userpassword": "7894648",
-      "userperfil": true,
-      "id": 14
-    },
-    {
-      "useremail": "andrea@gmail.com",
-      "userpassword": "123454121354",
-      "userperfil": true,
-      "id": 17
+      "userpassword": "1234565674",
+      "userperfil": "Estudiante",
+      "id": 10
     },
     {
       "useremail": "Juan@gmail.com",
-      "userpassword": "fghjgjhgjfj",
-      "userperfil": true,
-      "id": 23
+      "userpassword": "123456746874",
+      "userperfil": "Estudiante",
+      "id": 11
     },
     {
-      "useremail": "andrea@gmail.com",
-      "userpassword": "2124",
-      "userperfil": true,
-      "id": 24
+      "useremail": "oscar@hotmail.com",
+      "userpassword": "fghgfj",
+      "userperfil": "Docente",
+      "id": 12
     }
   ]
 }

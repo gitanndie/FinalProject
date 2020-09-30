@@ -11,9 +11,9 @@ import swal from "sweetalert"
 export default class Register extends Component {
     /*Definicion de datos para el estado*/
     state = {
-        users: [],
-        useremail: [],
-        userpassword: [],
+        users: "", 
+        useremail: "",
+        userpassword: "",  
         userperfil: "",
     }
     /*Obteniendo datos de la API por el metodo get*/
@@ -22,7 +22,7 @@ export default class Register extends Component {
         this.setState({ users: res.data })
         console.log(this.state.users)
     }
-    /*Array function, eventos y actualizacion del estado*/
+    /*Metodos, eventos y actualizacion del estado*/
     onChangeUseremail = (e) => {
         this.setState({
             useremail: e.target.value
@@ -35,7 +35,7 @@ export default class Register extends Component {
     }
     onChangeUserperfil = (e) => {
         this.setState({
-            userperfil: e.target.checked
+            userperfil: e.target.value
         })
     }
     /*Peticion por metodo post para agregar usuarios usando axios*/
@@ -100,8 +100,8 @@ export default class Register extends Component {
                         </p>
                     </div>
                     <div className="control1">
-                        <label className="radio"><input type="radio" name="answer" required onChange={this.onChangeUserperfil} />Docente</label>
-                        <label className="radio"><input type="radio" name="answer" required onChange={this.onChangeUserperfil} />Estudiante</label>
+                        <label className="radio"><input type="radio" name="answer" value= "Docente" required onChange={this.onChangeUserperfil} />Docente</label>
+                        <label className="radio"><input type="radio" name="answer" value= "Estudiante"  required onChange={this.onChangeUserperfil} />Estudiante</label>
                     </div>
                     <div className="control">
                         <button type="submit" id="boton" className="button is-primary">Enviar</button>
