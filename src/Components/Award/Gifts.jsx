@@ -3,10 +3,32 @@ import swal from "sweetalert";
 
 function Gifts(props) {
   const miComponente = () => {
-    swal("estas seguro que quieres comprarlo?", {
-      buttons: ["Si", "No"],
+    swal({
+      title: "estas seguro?",
+      text: "una vez, comprado no se puede volver a retroceder",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+    .then((willDelete) => {
+      if (willDelete) {
+        swal("oh! compra exitosa", {
+          icon: "success",
+        });
+      } else {
+        swal("No ha comprado nada");
+      }
     });
   };
+
+const prueba = () =>{
+  if(1500>=0 ){
+   console.log("puedes reclamarlo")
+  }else{
+  console.log("no tienes suficientes puntos")
+  }
+  prueba()
+}
 
   return (
     <div>
