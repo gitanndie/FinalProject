@@ -7,7 +7,7 @@
       "trophy": "oro",
       "badge": "beginner",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "trophy": "plata",
       "badge": "intermediate",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "trophy": "bronce",
       "badge": "beginner",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "trophy": "oro",
       "badge": "beginner",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "trophy": "plata",
       "badge": "intermediate",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "trophy": "bronce",
       "badge": "beginner",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "trophy": "oro",
       "badge": "beginner",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "trophy": "oro",
       "badge": "beginner",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     },
     {
       "useremail": "andrea@gmail.com",
@@ -80,7 +80,7 @@
       "trophy": "oro",
       "badge": "beginner",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "useremail": "quirama@gmail.com",
@@ -90,7 +90,7 @@
       "trophy": "oro",
       "badge": "advanced",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     },
     {
       "useremail": "Juan@gmail.com",
@@ -100,7 +100,7 @@
       "trophy": "plata",
       "badge": "intermediate",
       "degree": "10",
-      "score": "5000"
+      "score": 5000
     },
     {
       "useremail": "oscar@hotmail.com",
@@ -110,7 +110,7 @@
       "trophy": "bronce",
       "badge": "beginner",
       "degree": "11",
-      "score": "5000"
+      "score": 5000
     }
   ]
 }
