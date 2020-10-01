@@ -6,7 +6,8 @@
       "password": "12345",
       "trophy": "oro",
       "badge": "beginner",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "password": "123456",
       "trophy": "plata",
       "badge": "intermediate",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "password": "123456",
       "trophy": "bronce",
       "badge": "beginner",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "password": "123456",
       "trophy": "oro",
       "badge": "beginner",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "password": "123456",
       "trophy": "plata",
       "badge": "intermediate",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "password": "123456",
       "trophy": "bronce",
       "badge": "beginner",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "password": "123456",
       "trophy": "oro",
       "badge": "beginner",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "password": "123456",
       "trophy": "oro",
       "badge": "beginner",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     },
     {
       "useremail": "andrea@gmail.com",
@@ -71,7 +79,8 @@
       "id": 9,
       "trophy": "oro",
       "badge": "beginner",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "useremail": "quirama@gmail.com",
@@ -80,7 +89,8 @@
       "id": 10,
       "trophy": "oro",
       "badge": "advanced",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     },
     {
       "useremail": "Juan@gmail.com",
@@ -89,7 +99,8 @@
       "id": 11,
       "trophy": "plata",
       "badge": "intermediate",
-      "degree": "10"
+      "degree": "10",
+      "score": "5000"
     },
     {
       "useremail": "oscar@hotmail.com",
@@ -98,7 +109,8 @@
       "id": 12,
       "trophy": "bronce",
       "badge": "beginner",
-      "degree": "11"
+      "degree": "11",
+      "score": "5000"
     }
   ]
 }
