@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import "./components/FontAwesomeIcons/FontAwesomeIcons"
-import RegisterUser from "./components/Register/RegisterUser"
+import Review from './components/Review/Review';
 
 function App() {
   return (
     <div className="App">
-      <RegisterUser/>
+     <Review/>
     </div>
   );
-}
+}   
 
 export default App;
