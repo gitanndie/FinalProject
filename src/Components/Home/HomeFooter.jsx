@@ -25,7 +25,7 @@ export default class HomeFooter extends Component {
             </span>
             <p>
               <strong>EDDY APP</strong> by{" "}
-              <a href="https://jgthms.com">Todos los derechos son reservados</a>
+              <a href="https://jgthms.com" rel="noopener noreferrer">Todos los derechos son reservados</a>
               . The source code is licensed
             </p>
           </div>

@@ -10,36 +10,28 @@ function Gifts(props) {
       buttons: true,
       dangerMode: true,
     })
-    .then((willDelete) => {
-      if (willDelete) {
+    .then((reclamar) => {
+      if (reclamar) {
         swal("oh! compra exitosa", {
           icon: "success",
         });
+        props.restar(props.puntos);
       } else {
         swal("No ha comprado nada");
       }
     });
   };
 
-const prueba = () =>{
-  if(1500>=0 ){
-   console.log("puedes reclamarlo")
-  }else{
-  console.log("no tienes suficientes puntos")
-  }
-  prueba()
-}
-
-  return (
+return (
     <div>
       <div className="panel-heading columns">
         <div className="column">
           <div className="card-content">
             <div className="media-left">
               <figure className="image is-128x128">
-                <img src={props.imagen} />
+                <img src={props.imagen} alt="card" />
               </figure>
-              <h4>{props.puntos}</h4>
+              <h4>{props.puntos} pts</h4>
               <button className="button is-primary" onClick={miComponente}>
                 Reclama
               </button>

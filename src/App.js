@@ -4,7 +4,7 @@ import "bulma/css/bulma.css";
 // import './@fortawesome/react-fontawesome'
 import "./App.css";
 import Profile from "./Components/Profile/Profile";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Award from "./Components/Award/Award";
 import Review from "./Components/Review/Review";
 import RegisterUser from "./Components/Register/RegisterUser";

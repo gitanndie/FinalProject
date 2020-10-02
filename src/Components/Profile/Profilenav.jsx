@@ -8,26 +8,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(fas, faUser)
 
 class Profilenav extends Component {
-    state = {
-        user: ''
-    }
-    componentDidMount() {
-        const user = localStorage.getItem("user")
-        this.setState({ user: user ? user : '' });
-        }
-    close = () => {
-        localStorage.removeItem("auth");
-        this.props.history.replace("/")
-    }
     render() {
         return (
             <>
             <nav className="navbar" id="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="/">
-                    <img id="mini" src={cabezarobot} />
+                    <a className="navbar-item" href="!#" rel="noopener noreferrer"> 
+                    <img id="mini" src={cabezarobot} alt="cabeza robot"/>
                     </a>
-                <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" href="!#" rel="noopener noreferrer">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -35,17 +24,17 @@ class Profilenav extends Component {
                 </div>
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                    <a className="navbar-item" id="user1">
+                    <a className="navbar-item" id="user1" href="!#" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faUser}/>
-                        { this.state.user && this.state.user }
+                        { this.props.user && this.props.user }
                     </a>
-                    <a className="navbar-item" id="grado">Grado</a>
+        <a className="navbar-item" id="grado" href="!#" rel="noopener noreferrer">Grado{this.props.degree}</a>
                     </div>
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
                         <button className="button is-primary">Activo</button>
-                        <button className="button is-light" onClick={this.close}>Cerrar Sesión</button>
+                        <button className="button is-light" onClick={this.props.close}>Cerrar Sesión</button>
                         </div>
                     </div>
                 </div>

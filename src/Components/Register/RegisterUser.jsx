@@ -29,7 +29,7 @@ class Register extends Component {
 async componentDidMount() {
     const res = await axios.get("https://json-server-now.kira4489.vercel.app/users");
     this.setState({ users: res.data })
-    // console.log(this.state.users)
+    console.log(this.state.users)
 }
 /*Array function, eventos y actualizacion del estado*/
 handleChange = (e) => {
@@ -51,19 +51,18 @@ onSubmit = async e => {
 
   if(this.state.existsUser) return;
 
-  const {useremail, userpassword, userperfil} = this.state.newUser;
+  const {useremail, userpassword} = this.state.newUser;
     const res = await axios.post("https://json-server-now.kira4489.vercel.app/users", {
-        useremail: useremail,
-        userpassword: userpassword,
-        userperfil: userperfil
+        user: useremail,
+        password: userpassword
     })
     this.setState({userCreate: res.data});
 /*Alerta usando la dependencia sweetalert*/
     localStorage.setItem("auth", true);
-    localStorage.setItem("user", this.state.userCreate.useremail && this.state.userCreate.useremail)
-  // this.props.history.replace("/Profile");
+    localStorage.setItem("user", this.state.userCreate.user && this.state.userCreate.user)
+  this.props.history.replace("/Profile");
     swal({
-        title: `Bienvenid@ a EDDY: ${this.state.userCreate.useremail}`,
+        title: `Bienvenid@ a EDDY: ${this.state.userCreate.user}`,
         text: `Usuario creado exitosamente`,
         icon: "success"
     });
@@ -79,14 +78,14 @@ onSubmit = async e => {
           <span id="icons-login">
             <a
               href="https://www.facebook.com/Eddy-Software-Educativo-105583811295277"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
              <FontAwesomeIcon icon={faFacebook}/>
             </a>
-            <a href="https://twitter.com/SoftwareEddy" target="_blank">
+            <a href="https://twitter.com/SoftwareEddy" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter}/>
             </a>
-            <a href="mailto:eddysoftwareducativo@gmail.com" target="_blank">
+            <a href="mailto:eddysoftwareducativo@gmail.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faEnvelope}/>
             </a>
           </span>
@@ -115,7 +114,7 @@ onSubmit = async e => {
               <FontAwesomeIcon icon={faUser}/>
               </span>
             </div>
-             <label className="label">Contraseña</label>
+            <label id="hola3" className="label">Contraseña</label>
             <div className="field control has-icons-left">
               <input
                 className="input is-info"
@@ -148,7 +147,7 @@ onSubmit = async e => {
             <br />
             <div className="option">
               <p>Ya tienes cuenta?</p>
-              <a id="link" onClick={() => this.props.history.push("/") }>
+              <a href="!#" rel="noopener noreferrer" id="link" onClick={() => this.props.history.push("/") }>
                 {" "}
                 Ingresa aquí
               </a>

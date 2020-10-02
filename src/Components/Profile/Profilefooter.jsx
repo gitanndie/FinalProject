@@ -16,9 +16,9 @@ export default class Profilefooter extends Component {
                 <footer className="footer">
                     <div className="content has-text-centered">
                         <span id="icons">
-                            <a href="/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
-                            <a href="/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
-                            <a href="/" target="_blank"><FontAwesomeIcon icon={faEnvelope}/></a>
+                            <a href="!#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
+                            <a href="!#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="!#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope}/></a>
                         </span>
                         <p>
                         <strong>EDDY APP</strong> by <a href="https://jgthms.com">Todos los derechos son reservados</a>. The source code is licensed

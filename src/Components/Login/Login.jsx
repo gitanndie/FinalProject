@@ -138,14 +138,14 @@ class Login extends Component {
             <span id="icons-login">
               <a
                 href="https://www.facebook.com/Eddy-Software-Educativo-105583811295277"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://twitter.com/SoftwareEddy" target="_blank">
+              <a href="https://twitter.com/SoftwareEddy" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="mailto:eddysoftwareducativo@gmail.com" target="_blank">
+              <a href="mailto:eddysoftwareducativo@gmail.com" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </span>

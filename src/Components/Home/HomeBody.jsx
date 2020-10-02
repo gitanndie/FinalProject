@@ -10,7 +10,7 @@ export default class HomeBody extends Component {
         <div className="columns" id="container1">
           <div className="column is-two-fifths" id="container3">
             <h1>Informacion</h1>
-            <img id="imagen" src={logo}/>
+            <img id="imagen" src={logo} alt="logo"/>
             <p>
               Es una institución oficial, dedicada a la prestación de servicios
               de educación formal en los niveles de Preescolar, Básica Primaria,
@@ -19,7 +19,7 @@ export default class HomeBody extends Component {
           </div>
           <div className="column" id="container4">
             <h1 id="title4">Historia</h1>
-            <img id="imagen1" src={inem}/>
+            <img id="imagen1" src={inem} alt="inem"/>
             <p>
               En 1969, durante la administración de Carlos Lleras Restrepo, por
               medio del Decreto 1962, se creó un grupo de colegios en todas los
