@@ -28,7 +28,7 @@ class Profilenav extends Component {
                     <FontAwesomeIcon icon={faUser}/>
                         { this.props.user && this.props.user }
                     </a>
-        <a className="navbar-item" id="grado" href="!#" rel="noopener noreferrer">Grado{this.props.degree}</a>
+        <a className="navbar-item" id="grado" href="!#" rel="noopener noreferrer">{this.props.degree} º</a>
                     </div>
                 <div className="navbar-end">
                     <div className="navbar-item">

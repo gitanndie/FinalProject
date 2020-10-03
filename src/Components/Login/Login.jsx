@@ -96,7 +96,7 @@ class Login extends Component {
                   <FontAwesomeIcon icon={faUser} />
                 </span>
               </div>
-              ​ <label className="label">Contraseña</label>
+              ​ <label className="label" id="label1">Contraseña</label>
               <div className="field control has-icons-left">
                 <input
                   className="input is-info"

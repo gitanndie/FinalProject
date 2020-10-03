@@ -15,6 +15,11 @@
 #label {
   margin-top: 20px;
   height: 10px;
+  color: #ffffff;
+}
+
+#label1{
+  color: #ffffff;
 }
 
 #input {

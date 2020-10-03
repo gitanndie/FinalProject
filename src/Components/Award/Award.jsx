@@ -12,6 +12,7 @@ import papaslimon from '../../Images/Awards/papaslimon.jpeg'
 import coca from '../../Images/Awards/coca.jpeg'
 import cocabotella from '../../Images/Awards/cocabotella.jpg'
 import manzana from '../../Images/Awards/manzana.jpeg'
+import swal from "sweetalert";
 
 class Award extends Component {
   state = {
@@ -77,7 +78,7 @@ class Award extends Component {
         this.setState({ score: score - point});
         console.log(`restamos: ${point} de ${score}`)
     } else {
-        console.log(`no tienes los puntos suficientes para reclamar este premio`)
+      swal(`no tienes los puntos suficientes para reclamar este premio`)
     }
   }
 
