@@ -3,89 +3,78 @@ import cabezarobot from "../../Images/cabezarobot.png";
 import "./Review.css";
 import swal from "sweetalert"
 
-// import grafica from '../../Images/Reviews/grafica.jpeg'
-
 export default class Review extends Component {
-  
-  state = { answer1: "",
-            answer2: "",
-            answer3: "",
-            answer4: "",
-            answer5: "",
+  state = { answer1: 0,
+            answer2: 0,
+            answer3: 0,
+            answer4: 0,
+            answer5: 0,
             puntos: 0
 };
-
   valueToQuestion1 = (e) => {
     this.setState({
-      answer1: e.target.value  
+      answer1: Number(e.target.value)  
   })
   };
-
   valueToQuestion2 = (e) => {
     this.setState({
-      answer2: e.target.value  
+      answer2: Number(e.target.value)  
   })
   };
-
   valueToQuestion3 = (e) => {
     this.setState({
-      answer3: e.target.value  
+      answer3: Number(e.target.value) 
   })
   };
 
   valueToQuestion4 = (e) => {
     this.setState({
-      answer4: e.target.value  
+      answer4: Number(e.target.value)  
   })
   };
-
   valueToQuestion5 = (e) => {
     this.setState({
-      answer5: e.target.value  
+      answer5: Number(e.target.value)  
   })
   };
-
   onClickSubmit = (e)  => {
     e.preventDefault();
+    let x = this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5
+    this.setState({puntos: x})
     const res = {
-    answer1: this.state.answer1,
-    answer2: this.state.answer2,
-    answer3: this.state.answer3,
-    answer4: this.state.answer4,
-    answer5: this.state.answer5,
-    puntos: this.state.answer1
-  }
-    this.setState(function(){
-      return {
-        puntos: res.answer1 
-      }
-    })
+                  answer1: this.state.answer1,
+                  answer2: this.state.answer2,
+                  answer3: this.state.answer3,
+                  answer4: this.state.answer4,
+                  answer5: this.state.answer5,
+                  puntos: this.state.puntos
+                }
     console.log(res)
-
-  if (res.object === null){
+    e.target.reset()
+    this.setState(() => this.initialState)
+  if (res.Object === null){
     swal({
           title: `Puntaje obtenido: 0 Puntos`,
       });
-    
   } else {
     swal({
           title: `Puntaje obtenido:`, 
-          text: `${this.state.answer1} Puntos`,
+          text: `${this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5} Puntos`,
       })
   }}
   
+  
   render() {
     return (
-      <>
-      
-      <div>
-      <pre style={{color: "green", fontSize: "2em", position: "fixed"}}>{ JSON.stringify(this.state)}</pre>
+    <>
+     <div>
+      <pre style={{color: "green", fontSize: "2em", position: "fixed", display: "none"}}>{ JSON.stringify(this.state)}</pre>
         <h1 id="h1">Evaluación</h1>
         <div className="panel-heading">
           <h4>En esta Evaluación mediremos tu conocimientos</h4>
           <h6>Esfuerzate y así ganarás muchos puntos</h6>
           <img src={cabezarobot} id="cabezarobot" alt="robot" />
-          <form>
+          <form onSubmit ={this.onClickSubmit}>
             <section className="column">
               <p>
                 1. ¿Qué propiedad utilizamos para definir una imagen como fondo?
@@ -218,13 +207,13 @@ export default class Review extends Component {
                 </div>
               </div>
               <div id="button">
-                <button className="button is-primary" required onClick ={this.onClickSubmit}>Enviar</button>
+                <button className="button is-primary" required>Enviar</button>
               </div>
             </section>
           </form>
         </div>
       </div>
-      </>
+    </>
     );
   }
 }
