@@ -56,7 +56,7 @@
     margin-bottom: 20px;
 }
 
-.footer {
+/* .footer {
     background-color: #030C2A;
     color: white;
 }
@@ -73,7 +73,7 @@
 
 #icons a:hover {
     color: aquamarine;
-}
+} */
 
 nav ul li{
     display: inline-block;

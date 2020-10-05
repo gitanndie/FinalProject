@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import HomeNav from './HomeNav'
 import HomeBody from "./HomeBody"
-import HomeFooter from './HomeFooter'
+import Footer from '../../Shared/Footer'
 export default class Home extends Component {
     render() {
         return (
             <div>
                 <HomeNav/>
                 <HomeBody/>
-                <HomeFooter/>
+                <Footer/>
             </div>
         )
     }

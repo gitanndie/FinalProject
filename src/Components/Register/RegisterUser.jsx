@@ -54,13 +54,17 @@ onSubmit = async e => {
   const {useremail, userpassword} = this.state.newUser;
     const res = await axios.post("https://json-server-now.kira4489.vercel.app/users", {
         user: useremail,
-        password: userpassword
+        password: userpassword,
+        trophy: "bronce",
+        badge: "beginner",
+        degree: "10",
+        score: 5000
     })
     this.setState({userCreate: res.data});
 /*Alerta usando la dependencia sweetalert*/
     localStorage.setItem("auth", true);
-    localStorage.setItem("user", this.state.userCreate.user && this.state.userCreate.user)
-  this.props.history.replace("/Profile");
+    localStorage.setItem("user", this.state.userCreate.user)
+    this.props.history.replace("/Profile");
     swal({
         title: `Bienvenid@ a EDDY: ${this.state.userCreate.user}`,
         text: `Usuario creado exitosamente`,

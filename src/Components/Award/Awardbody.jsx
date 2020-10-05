@@ -11,8 +11,8 @@ export default class Awardbody extends Component {
         return (
             <div>
                 <h1 id="h1">Elige tu premio</h1>
-                <div className="panel-heading">
-                <div className="card-content">
+                <div className="panel-heading columns">
+                <div className="card-content column">
                     <div className="media" id="prod">
                     <div className="media">
                         {this.props.gifts.map((gift, index) => {

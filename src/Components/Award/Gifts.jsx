@@ -24,7 +24,7 @@ function Gifts(props) {
 
 return (
     <div>
-      <div className="panel-heading columns">
+      <div className="columns">
         <div className="column">
           <div className="card-content">
             <div className="media-left">

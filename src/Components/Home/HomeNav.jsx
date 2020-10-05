@@ -3,6 +3,7 @@ import cabezarobot from '../../Images/cabezarobot.png'
 import './Home.css'
 import 'bulma/css/bulma.css';
 import { withRouter } from "react-router-dom"
+import {Link} from "react-router-dom"
 class HomeNav extends Component {
     close = () => {
         localStorage.removeItem("auth");
@@ -17,9 +18,9 @@ class HomeNav extends Component {
                     <img id="mini" src={cabezarobot} />
                     </a>
                     <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/">Docentes</a></li>
-                        <li><a href="/">Aula Virtual</a></li>
+                        <li><Link to="/Home">Inicio</Link></li>
+                        <li><Link to="/Docentes">Docentes</Link></li>
+                        <li><Link to="/AulaVirtual">Aula Virtual</Link></li>
                     </ul>
                 </div> 
                 <div className="navbar-end">
