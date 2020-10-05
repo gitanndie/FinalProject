@@ -12,6 +12,7 @@ body{
     margin: 0 auto;
     background-color: #030C2A;
     border-radius: 20px;
+    position: relative;
 }
 #head-robot {
     width: 200px;
@@ -21,9 +22,19 @@ body{
     left:5%;
     float: left;
 }
+
+nav ul li ul li{
+    top: 100%;
+    left: 36.5%;
+    display: none;
+    background-color: #030C2A;
+    position: absolute;
+    width: 8%;
+}
+nav li:hover ul li{
+    display: block;
+}
 nav ul{
-    float: center;
-    margin-right: 150px;
     list-style: none;
 }
 nav ul li{
@@ -40,6 +51,7 @@ nav ul li a{
 ul li a:hover{
     color: rgb(1, 207, 207);
 }
+
 #icon-bars,
 #icon-times{
     font-size: 30px;
@@ -80,7 +92,8 @@ ul li a:hover{
     text-align: center;
 }
 /*Contolador de pantalla diseño responsivo*/
-@media (max-width: 1024px){
+@media (max-width: 1120px){
+
     #icon-bars{
         display:block;
         margin-top: 3vh;
@@ -90,6 +103,10 @@ ul li a:hover{
         margin-top: 3vh;
         margin-left: 3.6vh;
     }
+    nav ul li li{
+        background-color: #030C2A;
+        position: absolute;
+    }
     nav ul{
         position: fixed;
         width: 100%;
@@ -98,14 +115,15 @@ ul li a:hover{
         margin-top: 4vh;
         background: #030C2A;
         top: 125px;
-        left: -100%;
+        left: -120%;
+        margin-left: 0em;
         text-align: center;
         transition: .9s;
         z-index: 10;
     }
     nav ul li{
         display: block;
-        margin: 40px 0;
+        margin: 30px 0;
         line-height: 30px;
     }
     nav ul li a{
@@ -121,3 +139,4 @@ ul li a:hover{
         display: block;
     }
 }
+

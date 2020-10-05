@@ -21,7 +21,9 @@ export default class HomeNav extends Component {
                     <ul>
                         <li> <a href="/" >Inicio</a> </li>
                         <li> <a href="/" >Docentes</a> </li>
-                        <li> <a href="/" >Aula Virtual</a> </li>
+                        <li> <a href="/" >Aula Virtual</a> 
+                             <ul id="calificaciones"><li><a href="/" >Calificaciones</a> </li></ul>
+                        </li>
                     </ul>
                 </div>    
             </nav>

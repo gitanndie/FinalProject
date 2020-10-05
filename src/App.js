@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import Calificaciones from './components/Calificaciones/Calificaciones';
 import "./components/FontAwesomeIcons/FontAwesomeIcons"
-import Review from './components/Review/Review';
 
 function App() {
   return (
     <div className="App">
-     <Review/>
+     <Calificaciones/>
     </div>
   );
 }   
