@@ -10,6 +10,8 @@ import Review from "./Components/Review/Review";
 import RegisterUser from "./Components/Register/RegisterUser";
 import Home from "./Components/Home/Home";
 import { createBrowserHistory } from "history";
+import DocentesBody from "./Components/Home/Docentes";
+// import AulaVirtual from "./Components/Home/AulaVirtual";
 
 const history = createBrowserHistory();
 
@@ -35,6 +37,9 @@ function App() {
           </Route>
           <Route path="/Home">
             <Home />
+          </Route>
+          <Route path="/Docentes">
+            <DocentesBody />
           </Route>
         </Switch>
       </Router>

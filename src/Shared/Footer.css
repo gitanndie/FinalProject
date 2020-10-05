@@ -1,0 +1,19 @@
+.footer {
+    background-color: #030C2A;
+    color: white;
+}
+
+#icons i{
+    margin-top: 50px;
+}
+
+#icons a{
+    margin: 60px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#icons a:hover {
+    color: aquamarine;
+}
