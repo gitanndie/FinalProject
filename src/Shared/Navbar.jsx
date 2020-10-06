@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Navbar.css"
 import cabezarobot from "../Images/cabezarobot.png";
 import {
   faUser,

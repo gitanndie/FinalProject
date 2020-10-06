@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Profilebody from "./Profilebody";
 // import Profilefooter from '../../Components/Profile/Profilefooter'
 import Layout from "../Layout/Layout";
+// import Footer from "../../Shared/Footer";
 // import Profilenav from '../../Components/Profile/Profilenav'
 
 class Profile extends Component {
