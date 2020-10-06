@@ -134,7 +134,7 @@ class Login extends Component {
           <section className="column" id="column2">
             <img className="robot" src={robot3} alt="robot" />
             <h1 id="h1">E D D Y - A P P</h1>
-            <h3 id="h3">Lo que quieras aprender en un click</h3>
+            <h3 id="h3">Lo que quieras aprender con un solo click</h3>
             <span id="icons-login">
               <a
                 href="https://www.facebook.com/Eddy-Software-Educativo-105583811295277"
