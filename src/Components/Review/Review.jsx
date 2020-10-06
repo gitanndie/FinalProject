@@ -88,10 +88,10 @@ render() {
     return (
       <div>
         <Layout score={this.state.score}>
-        <h1 id="h1">Evaluación</h1>
+        <h1 id="h1">Reto de Lógica</h1>
         <div className="panel-heading">
-          <h4>En esta Evaluación mediremos tu conocimientos</h4>
-          <h6>Esfuerzate y así ganarás muchos puntos</h6>
+          <h4>En este reto mediremos tus conocimientos</h4>
+          <h6>Esfuérzate y así ganarás muchos puntos</h6>
           <img src={cabezarobot} id="cabezarobot" alt="robot" />
           <form onSubmit ={this.onClickSubmit}>
             <section className="column">

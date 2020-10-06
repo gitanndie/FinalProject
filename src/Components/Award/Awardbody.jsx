@@ -16,7 +16,7 @@ export default class Awardbody extends Component {
                     <div className="media" id="prod">
                     <div className="media">
                         {this.props.gifts.map((gift, index) => {
-                return <Gifts key={index} puntos={gift.puntos} imagen={gift.imagen} restar={this.props.restar} />
+                return <Gifts key={index} puntos={gift.puntos} imagen={gift.imagen} description={gift.description} restar={this.props.restar} />
                 })} 
                     </div>
                     </div>

@@ -31,7 +31,10 @@ return (
               <figure className="image is-128x128">
                 <img src={props.imagen} alt="card" />
               </figure>
+              <br/>
               <h4>{props.puntos} pts</h4>
+              <br/>
+               <h5>{props.description}</h5>
               <button className="button is-primary" onClick={miComponente}>
                 Reclama
               </button>

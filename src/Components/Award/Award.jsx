@@ -5,15 +5,19 @@ import Awardbody from "./Awardbody";
 // import Navbar from "../../Shared/Navbar"
 // import { withRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
-import paleta from "../../Images/Awards/paleta.jpeg";
-import paletaagua from "../../Images/Awards/paletaagua.jpeg";
-import colombina from "../../Images/Awards/colombina.jpeg";
-import papasnaturales from "../../Images/Awards/papasnaturales.jpeg";
-import papaspollo from "../../Images/Awards/papaspollo.jpg";
-import papaslimon from "../../Images/Awards/papaslimon.jpeg";
-import coca from "../../Images/Awards/coca.jpeg";
-import cocabotella from "../../Images/Awards/cocabotella.jpg";
-import manzana from "../../Images/Awards/manzana.jpeg";
+import adobe from "../../Images/Awards/adobe.jpg";
+import react from "../../Images/Awards/react.jpg";
+import nod32 from "../../Images/Awards/nod32.jpg";
+import office from "../../Images/Awards/office.jpg";
+import windows from "../../Images/Awards/windows.jpg";
+// import paletaagua from "../../Images/Awards/paletaagua.jpeg";
+// import colombina from "../../Images/Awards/colombina.jpeg";
+// import papasnaturales from "../../Images/Awards/papasnaturales.jpeg";
+// import papaspollo from "../../Images/Awards/papaspollo.jpg";
+// import papaslimon from "../../Images/Awards/papaslimon.jpeg";
+// import coca from "../../Images/Awards/coca.jpeg";
+// import cocabotella from "../../Images/Awards/cocabotella.jpg";
+// import manzana from "../../Images/Awards/manzana.jpeg";
 import swal from "sweetalert";
 
 export default class Award extends Component {
@@ -21,40 +25,29 @@ export default class Award extends Component {
     score: 5000,
     gifts: [
       {
-        puntos: 1500,
-        imagen: paleta,
+        puntos: 14000,
+        imagen: adobe,
+        description: "3 meses",
       },
       {
-        puntos: 1800,
-        imagen: paletaagua,
+        puntos: 50000,
+        imagen: react,
+        description: "libro de react",
       },
       {
-        puntos: 2000,
-        imagen: colombina,
+        puntos: 25000,
+        imagen: nod32,
+        description:"1 año",
       },
       {
-        puntos: 1300,
-        imagen: papasnaturales,
+        puntos: 13000,
+        imagen: office,
+        description: "1 año"
       },
       {
-        puntos: 1700,
-        imagen: papaspollo,
-      },
-      {
-        puntos: 1300,
-        imagen: papaslimon,
-      },
-      {
-        puntos: 2000,
-        imagen: coca,
-      },
-      {
-        puntos: 1800,
-        imagen: cocabotella,
-      },
-      {
-        puntos: 1200,
-        imagen: manzana,
+        puntos: 77000,
+        imagen: windows,
+        description: "nueva actualizacion",
       },
     ],
   };
