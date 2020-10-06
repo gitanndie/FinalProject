@@ -44,7 +44,7 @@ class Profilebody extends Component {
                 <div id="button">
                 <button className="button is-primary" onClick={() => this.props.history.push("/Review")}>Evaluación</button>
                     <button className="button is-primary" onClick={() => this.props.history.push("/Award")}>Recompensa</button>
-               <button className="button is-primary" onClick={() => this.props.history.push("/Home") }>Mi colegio</button>
+               {/* <button className="button is-primary" onClick={() => this.props.history.push("/Home") }>Mi colegio</button> */}
                 </div>
             </div>
         )
