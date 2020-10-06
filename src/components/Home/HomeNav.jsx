@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import robothead from '../../Images/cabezarobot.png'
-import '../../components/Home/Styles/HomeNav.css'
+import './Styles/HomeNav.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import 'bulma/css/bulma.css';
 

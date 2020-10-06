@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'bulma/css/bulma.css';
-import '../../components/Home/Styles/HomeBody.css'
+import "./Styles/HomeBody.css"
+// import '../../components/Home/Styles/HomeBody.css'
 
 
 

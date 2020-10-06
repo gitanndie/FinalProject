@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../../components/Home/Styles/HomeNavSearch.css'
+import './Styles/HomeNavSearch.css'
 import 'bulma/css/bulma.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 

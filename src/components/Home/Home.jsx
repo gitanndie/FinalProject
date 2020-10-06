@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import HomeNav from '../../components/Home/HomeNav'
+import HomeNav from './HomeNav'
+
 import HomeNavSearch from './HomeNavSearch'
 import HomeBody from "./HomeBody"
 import HomeFooter from './HomeFooter'
