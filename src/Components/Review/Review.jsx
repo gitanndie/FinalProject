@@ -61,21 +61,23 @@ if (res.Object === null){
         title: `Puntaje obtenido: 0 Puntos`,
     });
 } else {
+  this.setState({score:this.state.score+this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5})
+  
   swal({
         title: `Puntaje obtenido:`, 
         text: `${this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5} Puntos`,
     })
 }}
 
-sumar = (point) =>{
-  const {score} = this.state;
-  if(point < score){
-    this.setState({ score: score + point });
-    console.log(`sumamos: ${point} de ${score}`);
-  } else {
-    swal(`si no se sumo puntos`);
-  }
-};
+// sumar = (point) =>{
+//   const {score} = this.state;
+//   if(point < score){
+//     this.setState({ score: score + point });
+//     console.log(`sumamos: ${point} de ${score}`);
+//   } else {
+//     swal(`si no se sumo puntos`);
+//   }
+// };
  
 render() {
     return (
