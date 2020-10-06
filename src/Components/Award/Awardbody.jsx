@@ -22,12 +22,7 @@ export default class Awardbody extends Component {
                     </div>
                 </div>
                 </div>
-                <nav className="pagination is-rounded" role="navigation" aria-label="pagination">
-                    <a className="pagination-previous" href="!#">Previous</a>
-                    <a className="pagination-next" href="!#">Next page</a>
-                </nav>
             </div>
-            
         )
     }
 }

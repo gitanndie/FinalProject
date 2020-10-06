@@ -13,24 +13,32 @@ class Profilebody extends Component {
             <div className="container">
                 <div className="columns" id="redes">
                     <div className="column is-one-quarter" id="column-redes">
-                    <a href="https://www.facebook.com/julioprofenet/">
+                    <a href="https://www.facebook.com/julioprofenet/" target="_blank">
                     <img src={facebook} alt="facebook"/>
                     </a>
                     <br/>
-                    <a href="https://www.youtube.com/user/julioprofe/">
+                    <a href="https://www.youtube.com/user/julioprofe/" target="_blank">
                     <img src={youtube} alt=""/>
                     </a>
                     </div>
                     <br/>
                     <div className="column is-one-quarter" id="column-redes">
-                    <img src={instagram} alt=""/>
+                    <a href="https://www.instagram.com/developers_team/?hl=es-la" target="_blank">
+                    <img src={instagram} alt="instagram"/>
+                    </a>
                     <br/>
-                    <img src={tiktok} alt=""/>
+                    <a href="https://www.tiktok.com/@aprende.mates?lang=es" target="_blank">
+                    <img src={tiktok} alt="tiktok"/>
+                    </a>
                     </div>
                     <div className="column is-one-quarter" id="column-redes">
+                    <a href="" target="_blank">
                     <img src={snap} alt=""/>
+                    </a>
                     <br/>
+                    <a href="https://twitter.com/hektorprofe?lang=es" target="_blank">
                     <img src={twitter} alt=""/>
+                    </a>
                     </div>
                 </div>
                 <div id="button">
