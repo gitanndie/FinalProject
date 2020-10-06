@@ -1,27 +1,15 @@
-
-#navbar {
-    background-color: #030C2A;
-    height: 90px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.navbar-item {
-    color: white;
-}
-
-#user1 {
+/* #user1 {
     margin-left: 50px;
 }
 
 #user {
     margin-right: 30px;
     margin-bottom: 10px;
-}
+} */
 
-#grado {
+/* #grado {
     margin-left: 30px;
-}
+} */
 
 /* #robot-profile {
     width: 185%;
@@ -59,7 +47,7 @@
     margin: 10px;
 } */
 
-.footer {
+/* .footer {
     background-color: #030C2A;
     color: white;
 }
@@ -77,4 +65,4 @@
 
 #icons a:hover {
     color: aquamarine;
-}
+} */

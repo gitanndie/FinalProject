@@ -37,7 +37,7 @@ class Navbar extends Component {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <a className="navbar-item" id="user1">
-                <FontAwesomeIcon icon={faUser}/>
+                <FontAwesomeIcon icon={faUser} id="user"/>
                 {this.props.user && this.props.user}
               </a>
               <a className="navbar-item" id="grado">
