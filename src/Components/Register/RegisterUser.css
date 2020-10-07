@@ -87,6 +87,13 @@ body {
     margin-right: 10px;
   }
 }
+
+@media(max-width:768px){
+  .control.has-icons-left .input{
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 510px) {
   #email {
     width: 40vh;
@@ -96,7 +103,7 @@ body {
     width: 40vh;
   }
 }
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
   #user {
     margin-left: 1vh;
   }
@@ -110,17 +117,18 @@ body {
   #password {
     margin-right: 8vh;
   }
-}
-@media (max-width: 408px) {
+} */
+
+@media (max-width: 400px) {
   #title-registrar {
     font-size: 30px;
   }
   #email {
-    margin-right: 50px;
+    margin-right: 70px;
   }
 
   #password {
-    margin-right: 50px;
+    margin-right: 70px;
   }
   #user {
     margin-left: 15px;
@@ -128,8 +136,13 @@ body {
   #lock {
     margin-left: 15px;
   }
+  .control.has-icons-left .input{
+    max-width: 100%;
+  }
+
 }
-@media (max-width: 380px) {
+
+/* @media (max-width: 380px) {
   #email {
     width: 308px;
     margin-right: 85px;
@@ -162,4 +175,4 @@ body {
   #boton {
     width: 185px;
   }
-}
+} */
