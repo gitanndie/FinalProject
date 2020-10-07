@@ -142,7 +142,7 @@ body {
 
 }
 
-/* @media (max-width: 380px) {
+@media (max-width: 380px) {
   #email {
     width: 308px;
     margin-right: 85px;
@@ -175,4 +175,4 @@ body {
   #boton {
     width: 185px;
   }
-} */
+}
