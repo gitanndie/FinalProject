@@ -56,7 +56,7 @@ onSubmit = async e => {
         user: useremail,
         password: userpassword,
         trophy: "bronce",
-        badge: "beginner",
+        badge: "principiante",
         degree: "10",
         score: 5000
     })

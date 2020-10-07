@@ -31,10 +31,10 @@
 #redes {
     display: flex;
     margin: auto;
-    width: 700px;
+    width: 60%;
     margin-top: 100px;
     margin-bottom: 130px;
-}
+} 
 
 #column-redes {
     margin: 20px;
@@ -90,13 +90,13 @@ ul li a:hover{
     color: #4CAAB2;
 }
 
-.columns{
+/* .columns{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin-top: 2vh;
     margin-left: 3vh;
     margin-right: 3vh;
-}
+} */
 
 #container3{
     color: #000000;
@@ -133,3 +133,15 @@ ul li a:hover{
         margin-top: 2vh;
     }
 }
+
+@media (max-width: 575px){
+    #redes{
+        width: 70px;
+    }
+    }
+    
+@media (max-width: 400px){
+        #redes{
+            width: 100%;
+        }
+        }

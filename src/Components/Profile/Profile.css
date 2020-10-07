@@ -25,7 +25,8 @@
 #redes {
     display: flex;
     margin: auto;
-    width: 700px;
+    width: 60%;
+    /* max-width: 100%; */
     margin-top: 100px;
     margin-bottom: 130px;
 }
@@ -67,12 +68,17 @@
     color: aquamarine;
 } */
 
-@media(max-width: 1080px){
+/* @media(max-width: 1080px){
 
+} */
+/* @media(max-width:775px){
+    #redes{
+        width: 100%;
+    }
 }
 
 @media(max-width:575px){
     #redes{
-        width: 90%;
+        width: 70%;
     }
-}
+} */
