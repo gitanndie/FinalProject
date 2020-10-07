@@ -94,7 +94,7 @@ body {
   }
 }
 
-@media (max-width: 510px) {
+/* @media (max-width: 510px) {
   #email {
     width: 40vh;
   }
@@ -102,7 +102,7 @@ body {
   #password {
     width: 40vh;
   }
-}
+} */
 /* @media (max-width: 440px) {
   #user {
     margin-left: 1vh;
@@ -125,10 +125,12 @@ body {
   }
   #email {
     margin-right: 70px;
+    width: 85%;
   }
 
   #password {
     margin-right: 70px;
+    width: 85%;
   }
   #user {
     margin-left: 15px;
