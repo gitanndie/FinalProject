@@ -36,10 +36,10 @@
   margin-top: 10px;
 }
 
-.button {
-  margin-top: 20px;
-  width: 180px;
-}
+#boton1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+} 
 
 #link {
   margin-top: 50px;
@@ -89,3 +89,4 @@
 #active a:hover {
   color: aquamarine;
 }
+

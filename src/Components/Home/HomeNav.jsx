@@ -15,7 +15,7 @@ class HomeNav extends Component {
             <nav className="navbar" id="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
-                    <img id="mini" src={cabezarobot} />
+                    <img id="mini1" src={cabezarobot} />
                     </a>
                     <ul>
                         <li><Link to="/Home">Inicio</Link></li>

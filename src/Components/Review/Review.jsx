@@ -66,6 +66,7 @@ if (res.Object === null){
         title: `Puntaje obtenido: 0 Puntos`,
     });
 } else {
+  //patch la url y el score 
   this.setState({score:this.state.score+this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5})
   
   swal({

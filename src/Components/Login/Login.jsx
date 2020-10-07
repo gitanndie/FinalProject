@@ -112,11 +112,11 @@ class Login extends Component {
                 </span>
               </div>
               <div className="control">
-                <button className="button is-primary" onClick={this.login}>
+                <button id="boton1" className="button is-primary" onClick={this.login}>
                   Entrar
                 </button>
                 <br />
-                <button
+                <button id="boton1"
                   className="button is-primary"
                   onClick={() => this.props.history.push("/Register")}
                 >

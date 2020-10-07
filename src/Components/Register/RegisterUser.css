@@ -83,7 +83,83 @@ body {
 
 @media (max-width: 1080px) {
   #register {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 510px) {
+  #email {
+    width: 40vh;
+  }
+
+  #password {
+    width: 40vh;
+  }
+}
+@media (max-width: 440px) {
+  #user {
+    margin-left: 1vh;
+  }
+  #lock {
+    margin-left: 1vh;
+  }
+  #email {
+    margin-right: 8vh;
+  }
+
+  #password {
+    margin-right: 8vh;
+  }
+}
+@media (max-width: 408px) {
+  #title-registrar {
+    font-size: 30px;
+  }
+  #email {
+    margin-right: 50px;
+  }
+
+  #password {
+    margin-right: 50px;
+  }
+  #user {
+    margin-left: 15px;
+  }
+  #lock {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 380px) {
+  #email {
+    width: 308px;
+    margin-right: 85px;
+  }
+
+  #password {
+    width: 308px;
+    margin-right: 85px;
+  }
+  #user {
+    margin-left: 1px;
+  }
+  #lock {
+    margin-left: 1px;
+  }
+  .field.control.has-icons-left {
+    width: 190px;
+    margin: auto;
+  }
+  #inputDocente {
     margin-left: 40px;
-    margin-right: 40px;
+  }
+  .checkbox,
+  .radio {
+    margin-right: 29px;
+  }
+  #label {
+    height: 1px;
+  }
+  #boton {
+    width: 185px;
   }
 }
