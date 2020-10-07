@@ -66,3 +66,13 @@
 #icons a:hover {
     color: aquamarine;
 } */
+
+@media(max-width: 1080px){
+
+}
+
+@media(max-width:575px){
+    #redes{
+        width: 90%;
+    }
+}
