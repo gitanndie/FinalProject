@@ -1,27 +1,27 @@
 #navbar {
-    background-color: #030C2A;
-    height: 90px;
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Baloo Tammudu 2';
+  background-color: #030c2a;
+  height: 90px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Baloo Tammudu 2";
 }
 
 .navbar-item {
-    color: white;
+  color: white;
 }
 
 #user1 {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
-#user{
-    margin-right: 30px;
+#user {
+  margin-right: 30px;
 }
 
 #grado {
-    margin-left: 30px;
+  margin-left: 30px;
 }
-    
+
 /* #mini{
     margin-left: 30px;
     width: 60px;
@@ -29,31 +29,31 @@
 } */
 
 #redes {
-    display: flex;
-    margin: auto;
-    width: 60%;
-    margin-top: 100px;
-    margin-bottom: 130px;
-} 
+  display: flex;
+  margin: auto;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
 
 #column-redes {
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 
-#button button{
-    margin: 50px;
+#button button {
+  margin: 50px;
 }
 
-#imagen{
-    height: auto;
-    width: 20%;
+#imagen {
+  height: auto;
+  width: 20%;
 }
 
-#imagen1{
-    height: auto;
-    width: 20%;
-    margin-bottom: 20px;
+#imagen1 {
+  height: auto;
+  width: 20%;
+  margin-bottom: 20px;
 }
 
 /* .footer {
@@ -75,19 +75,19 @@
     color: aquamarine;
 } */
 
-nav ul li{
-    display: inline-block;
-    line-height: 100px;
-    margin: 0 80px;
+nav ul li {
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 80px;
 }
 
-nav ul li a{
-    color: white;
-    margin-left: 150px;
+nav ul li a {
+  color: white;
+  margin-left: 150px;
 }
 
-ul li a:hover{
-    color: #4CAAB2;
+ul li a:hover {
+  color: #4caab2;
 }
 
 /* .columns{
@@ -98,50 +98,50 @@ ul li a:hover{
     margin-right: 3vh;
 } */
 
-#container3{
-    color: #000000;
-    margin-left: 1vh;   
+#container3 {
+  color: #000000;
+  margin-left: 1vh;
 }
 
-#container3 h1{
-    margin-bottom: 20px;
+#container3 h1 {
+  margin-bottom: 20px;
 }
 
-#container4{
-   color: #000000;
+#container4 {
+  color: #000000;
 }
 
 #container4 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-#title5{
-    margin-top: 10px;
-    margin-bottom: 30px;
+#title5 {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-#title6{
-    margin-bottom: 20px;
+#title6 {
+  margin-bottom: 20px;
 }
 
-@media (max-width: 770px){
-    #container2{
-        margin-right: 0;
-    }
-    #container3{
-        margin-left: 0;
-        margin-top: 2vh;
-    }
+@media (max-width: 770px) {
+  #container2 {
+    margin-right: 0;
+  }
+  #container3 {
+    margin-left: 0;
+    margin-top: 2vh;
+  }
 }
 
-@media (max-width: 575px){
-    #redes{
-        width: 70px;
-    }
-    }
-    
-@media (max-width: 400px){
-        #redes{
-            width: 100%;
-        }
-        }
+/* @media (max-width: 575px) {
+  #redes {
+    width: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  #redes {
+    width: 100%;
+  }
+} */
