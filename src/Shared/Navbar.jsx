@@ -47,9 +47,11 @@ class Navbar extends Component {
                 {this.props.badge} 
               </a>
               <a className="navbar-item" id="grado">
-                {this.props.trophy} 
+                {/* {this.props.trophy}  */}
               </a>
-              {/* <img src={this.props.img}/> */}
+              <img id="oro" src={this.props.img}/>
+              {/* <img id="plata" src={this.props.img}/>
+              <img id="bronce" src={this.props.img}/> */}
             </div>
             <div className="navbar-end">
               <div className="navbar-item">

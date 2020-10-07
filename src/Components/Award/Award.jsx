@@ -32,7 +32,7 @@ export default class Award extends Component {
       {
         puntos: 50000,
         imagen: react,
-        description: "libro de react",
+        description: "Libro de react",
       },
       {
         puntos: 25000,
@@ -47,7 +47,7 @@ export default class Award extends Component {
       {
         puntos: 77000,
         imagen: windows,
-        description: "nueva actualizacion",
+        description: "Nueva actualizacion",
       },
     ],
   };

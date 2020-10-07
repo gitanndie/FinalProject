@@ -3,7 +3,8 @@ import Navbar from "../../Shared/Navbar";
 import Footer from "../../Shared/Footer";
 import { withRouter } from "react-router-dom";
 import oroImage from "../../Images/oro.jpg";
-
+import plataImage from "../../Images/plata.jpg";
+import bronceImage from "../../Images/bronce.jpg"
 class Layout extends Component {
   state = {
     users: [],
@@ -30,9 +31,9 @@ class Layout extends Component {
             if(datauser.trophy === "oro"){
               this.setState({ img: oroImage })
             } else if(datauser.trophy === "plata"){
-              this.setState({ img: oroImage })
+              this.setState({ img: plataImage })
             } else if(datauser.trophy === "bronce"){
-              this.setState({ img: oroImage })
+              this.setState({ img: bronceImage })
             }
           }
         });
