@@ -2,19 +2,32 @@
 ## EDDY
 
 
-Esta es una Aplicación educativa, elaborada con React para nuestro proyecto Final, en el diplomado de Academia Geek.
+Esta es una Aplicación educativa, elaborada con React,Bulma css,Sweet Alert para nuestro proyecto Final, en el diplomado de Academia Geek.
 
 
 ### Pasos para instalar de forma local la aplicacion:
 
 
-1. npm install
+Clonar el repositorio con el siguiente comando :
 
 
-2. npm start
+git clone https://github.com/gitanndie/FinalProject
 
 
-Excelente ya puedes empezar a trabajar en nuestra aplicacion
+Luego abrir una terminal y instalar unas dependencias con el siguiente comando:
+
+
+npm install
+
+
+Despues instaladas las dependencias se inicia el repositorio localmente con el siguiente comando:
+
+
+npm start
+
+
+
+Excelente ya puedes empezar a observar y mirar nuestra aplicacion.
 
 
 
