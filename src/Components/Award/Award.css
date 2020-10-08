@@ -27,6 +27,19 @@ h1 {
     margin-bottom: 20px;
 }
 
+#tamaño{
+    width: 100px;
+    height: 120px;
+}
+
+#columna{
+    border: 5px solid #ffffff;
+}
+
+#reclamar{
+    margin-top: 20px;
+}
+
 /* #column {
     display: block;
     flex-basis: 0;
@@ -43,5 +56,5 @@ h1 {
     display: block;
     height: auto;
     width: 100%;
-    margin-left: 26.5px;
+    margin-left: 40px;
 }

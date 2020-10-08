@@ -14,7 +14,6 @@ export default class Awardbody extends Component {
                 <div className="panel-heading columns">
                 <div className="card-content column">
                     <div className="media" id="prod">
-                    <div className="media">
                         {this.props.gifts.map((gift, index) => {
                 return <Gifts key={index} puntos={gift.puntos} imagen={gift.imagen} description={gift.description} restar={this.props.restar} />
                 })} 
@@ -22,7 +21,6 @@ export default class Awardbody extends Component {
                     </div>
                 </div>
                 </div>
-            </div>
         )
     }
 }

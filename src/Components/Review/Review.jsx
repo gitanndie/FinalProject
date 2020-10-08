@@ -67,6 +67,7 @@ if (res.Object === null){
     });
 } else {
   //patch la url y el score 
+  // patch("https://json-server-now.kira4489.vercel.app/users")
   this.setState({score:this.state.score+this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5})
   
   swal({

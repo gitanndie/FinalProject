@@ -25,17 +25,17 @@ function Gifts(props) {
 return (
     <div>
       <div className="columns">
-        <div className="column">
+        <div className="column" id="columna">
           <div className="card-content">
-            <div className="media-left">
+            <div className="media-center">
               <figure className="image is-128x128">
-                <img src={props.imagen} alt="card" />
+                <img src={props.imagen} alt="card" id="tamaño" />
               </figure>
               <br/>
               <h4>{props.puntos} pts</h4>
               <br/>
                <h5>{props.description}</h5>
-              <button className="button is-primary" onClick={miComponente}>
+              <button id="reclamar" className="button is-primary" onClick={miComponente}>
                 Reclama
               </button>
             </div>
