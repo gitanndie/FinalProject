@@ -8,10 +8,10 @@ Esta es una Aplicación educativa, elaborada con React para nuestro proyecto Fin
 ### Pasos para instalar de forma local la aplicacion:
 
 
-1.npm install
+1. npm install
 
 
-2.npm start
+2. npm start
 
 
 Excelente ya puedes empezar a trabajar en nuestra aplicacion
