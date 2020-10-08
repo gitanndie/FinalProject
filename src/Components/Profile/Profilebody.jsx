@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import facebook from '../../Images/facebook.png'
-import tiktok from '../../Images/tiktok.png'
+import pinterest from '../../Images/pinterest.png'
 import instagram from '../../Images/instagram.jpg'
 import youtube from '../../Images/youtube.png'
 import snap from '../../Images/snap.png'
@@ -27,13 +27,13 @@ class Profilebody extends Component {
                     <img src={instagram} alt="instagram"/>
                     </a>
                     <br/>
-                    <a href="https://www.tiktok.com/@aprende.mates?lang=es" target="_blank">
-                    <img src={tiktok} alt="tiktok"/>
+                    <a href="#" target="_blank">
+                    <img src={snap} alt=""/>
                     </a>
                     </div>
                     <div className="column is-one-quarter" id="column-redes">
-                    <a href="" target="_blank">
-                    <img src={snap} alt=""/>
+                    <a href="https://co.pinterest.com/teresaprieto792/" target="_blank">
+                    <img src={pinterest} alt="pinterest"/>
                     </a>
                     <br/>
                     <a href="https://twitter.com/hektorprofe?lang=es" target="_blank">
