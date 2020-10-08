@@ -133,7 +133,7 @@ onSubmit = async e => {
               <FontAwesomeIcon icon={faLock}/>
               </span>
             </div>
-            <div className="control1">
+            {/* <div className="control1">
               <label className="radio">
                 <input type="radio" name="userperfil" value="docente" required onChange={this.handleChange} />
                 Docente
@@ -142,7 +142,7 @@ onSubmit = async e => {
                 <input type="radio" name="userperfil" value="estudiante" required onChange={this.handleChange} />
                 Estudiante
               </label>
-            </div>
+            </div> */}
             <div className="control">
               <button id="boton" className="button is-primary">
                 Enviar

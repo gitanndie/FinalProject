@@ -67,7 +67,7 @@ if (res.Object === null){
     });
 } else {
   //patch la url y el score 
-  // patch("https://json-server-now.kira4489.vercel.app/users")
+  // fetch.put("https://json-server-now.kira4489.vercel.app/users")
   this.setState({score:this.state.score+this.state.answer1 + this.state.answer2 + this.state.answer3 + this.state.answer4 + this.state.answer5})
   
   swal({
@@ -233,9 +233,16 @@ render() {
                 <button className="button is-primary" required>Enviar</button>
               </div>
             </section>
+            {/* <div class="is-active modal">
+  <div class="modal-content">
+    
+    <p>holakafkadsf</p>
+  </div>
+  <button class="modal-close is-large" aria-label="close">abrir</button>
+</div> */}
           </form>
         </div>
-        </Layout>
+   </Layout>
       </div>
     );
   }
